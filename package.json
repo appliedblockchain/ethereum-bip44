@@ -23,10 +23,12 @@
         "prepublish": "./node_modules/.bin/babel src --out-dir es5 --stage 0"
     },
     "dependencies": {
-        "bitcore-lib": "0.13.13",
         "ethereumjs-util": "4.0.1",
         "elliptic": "6.2.3",
         "assert": "^1.3.0"
+    },
+    "peerDependencies": {
+       "bitcore-lib": "0.13.13"
     },
     "devDependencies": {
         "babel": "^5.8.14"
